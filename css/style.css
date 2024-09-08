@@ -671,8 +671,8 @@ footer {
   }
   .section:nth-child(even) .readMore {
     margin-bottom: 6px;
+    left: -28px;
   }
-
   footer {
     margin: 99px auto 45px;
   }
