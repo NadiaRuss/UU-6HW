@@ -17,7 +17,6 @@ li {
 }
 body {
   background-color: #0b1d26;
-  /* overflow-x: hidden; */
 }
 .header {
   max-width: 88%;
@@ -85,7 +84,6 @@ body {
   height: 700px;
   width: 100%;
 }
-
 .main {
   max-width: 1462px;
   margin: 0 auto 200px;
@@ -93,7 +91,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .main-followUs {
   font-family: "Poppins-Bold", sans-serif;
   display: flex;
@@ -180,7 +177,6 @@ body {
   font-family: "Poppins-Bold";
   margin: 35px auto 0;
 }
-
 .section {
   display: flex;
   justify-content: space-between;
@@ -189,7 +185,6 @@ body {
 .section:nth-child(even) {
   flex-direction: row-reverse;
 }
-
 .section-wrapper {
   color: #ffffff;
   padding-right: 7vw;
@@ -213,7 +208,6 @@ body {
   object-fit: cover;
   height: 720px;
 }
-
 .h2 {
   font-family: "Poppins-SemiBold";
   font-weight: 600;
@@ -315,7 +309,6 @@ footer {
   }
   .section-wrapper {
     margin-top: 40px;
-    /* padding-right: 9vw; */
   }
   .section {
     width: 100%;
@@ -344,16 +337,14 @@ footer {
   .section:nth-child(even) .h2 {
     max-width: 550px;
   }
-
   .section:nth-child(even) .section-wrapper {
-    /* padding-left: 5vw; */
     margin-top: 16px;
-    /* padding-right: 85px; */
   }
   footer {
     margin: 0 auto 80px;
   }
 }
+
 @media (max-width: 1024px) {
   .h1 {
     font-size: 60px;
@@ -375,7 +366,6 @@ footer {
   .main-scroll {
     right: 4%;
     top: 37%;
-    /* position: absolute; */
   }
   .backgrount {
     max-height: 1443px;
@@ -836,7 +826,6 @@ footer {
   }
   .more-header {
     font-size: 20px;
-    /* line-height: 32px; */
     margin-bottom: 0;
   }
   .more li a {
